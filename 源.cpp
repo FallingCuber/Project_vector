@@ -3,8 +3,7 @@ using namespace std;
 template <typename T>
 class vector {
     public:
-        vector() :data(nullptr), size(0), capacity(0) {
-        }
+        vector() :data(nullptr), size(0), capacity(0) {}
         ~vector() {
             if (data != nullptr) {
                 delete[] data;
